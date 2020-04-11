@@ -1,0 +1,120 @@
+
+
+body {
+	background: no-repeat center center fixed #D3DAD9;
+	width: 94%;
+	height: 100%;
+	background-size: cover;
+	margin: auto;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(590px,1fr));
+
+}
+h1{
+	font-family:fantasy;
+	font-size: 2.5em;
+	border-bottom: 5px solid black;
+	border-right: 5px solid red;
+	width: 300px;
+	text-align: center;
+	box-shadow: 5px 5px 5px 5px black;
+	position: relative;
+	right: -50px;
+
+}
+
+img{
+	width: 580px;
+	height: 480px;
+	margin: 10px;
+	transition: all 1s;
+
+
+}
+
+img:hover{
+	transform: scale(1.05);
+}
+
+
+
+.btn {
+	font-size: 1rem;
+	border-radius: 300px;
+	cursor: pointer;
+
+}
+
+.btn-primary
+{
+	background-color: #F05F44;
+	border-color:  #F05F44
+}
+
+.btn-primary:hover{
+	background-color: #F05F44;
+	border-color:  #F05F44;
+	border-width:3px;
+
+}
+
+.btn-xl {
+	padding: 5px 20px
+}
+
+.sharegomb{
+	position: relative;
+	left: 50px;
+}
+
+.button-one{
+	background-color: #3B5998;
+	border-color: #3B5998;
+	color: white;
+	font-weight: bold;
+	margin-right: 30px
+}
+
+.button-one:hover{
+	background-color: #3B5998;
+	border-color: #3B5998;
+}
+
+.button-two{
+	background-color: #00ACEE;
+	border-color:#00ACEE;
+	color:white;
+	font-weight: bold;
+	margin-right: 30px;
+}
+
+.button-two:hover{
+	background-color: #00ACEE;
+	border-color:#00ACEE;
+}
+
+.button-three{
+	background-color: #DD2A7B;
+	border-color:#DD2A7B;
+	color:white;
+	font-weight: bold;
+}
+
+.button-three:hover{
+	background-color: #DD2A7B;
+	border-color:#DD2A7B;
+}
+
+.share{
+	font-family:fantasy;
+	font-size: 1.4em;
+	border-bottom: 5px solid black;
+	border-right: 5px solid red;
+	width: 200px;
+	text-align: center;
+	box-shadow: 3px 3px 3px 3px black;
+	position: relative;
+	right: -50px;
+}
